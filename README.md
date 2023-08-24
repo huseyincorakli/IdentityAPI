@@ -1,0 +1,2 @@
+# IdentityAPI
+A project I've undertaken to learn the identity mechanism. In the project, non-registered users are only able to perform read operations, while registered users with necessary roles carry out the write and delete operations.Furthermore, during the implementation of the project, I aimed to apply the onion architecture in ASP.NET Core applications and solidify the repository design pattern.
