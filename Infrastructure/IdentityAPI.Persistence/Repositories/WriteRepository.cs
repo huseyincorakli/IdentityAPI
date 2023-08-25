@@ -21,5 +21,8 @@ namespace IdentityAPI.Persistence.Repositories
            EntityEntry entityEntry = await Table.AddAsync(model);
            return entityEntry.State== EntityState.Added;
         }
+
+        public async Task<int> SaveAsync()
+        =>await _context.SaveChangesAsync();
     }
 }

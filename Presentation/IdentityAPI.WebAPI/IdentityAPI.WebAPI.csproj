@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Core\IdentityAPI.Application\IdentityAPI.Application.csproj" />
     <ProjectReference Include="..\..\Infrastructure\IdentityAPI.Infrastructure\IdentityAPI.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\IdentityAPI.Persistence\IdentityAPI.Persistence.csproj" />

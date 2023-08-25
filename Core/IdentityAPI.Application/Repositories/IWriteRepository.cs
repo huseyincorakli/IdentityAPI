@@ -5,5 +5,6 @@ namespace IdentityAPI.Application.Repositories
     public interface IWriteRepository<T>:IRepository<T> where T : Entity
     {
         Task<bool> AddAsync(T model);
+        Task<int> SaveAsync();
     }
 }
