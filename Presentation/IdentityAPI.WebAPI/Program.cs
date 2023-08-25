@@ -1,4 +1,5 @@
 using IdentityAPI.Application;
+using IdentityAPI.Infrastructure;
 using IdentityAPI.Persistence;
 
 
@@ -6,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplicationService();
 builder.Services.AddPersistenceService();
+builder.Services.AddInfrastructureServices();
 // Add services to the container.
 
 builder.Services.AddControllers();

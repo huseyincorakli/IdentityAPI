@@ -16,4 +16,9 @@
     <ProjectReference Include="..\IdentityAPI.Domain\IdentityAPI.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Commands\AppUser\Login\GoogleLogin\" />
+    <Folder Include="Features\Commands\AppUser\Login\FacebookLogin\" />
+  </ItemGroup>
+
 </Project>
